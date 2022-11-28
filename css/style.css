@@ -1,0 +1,101 @@
+body {
+    margin: 0%;
+    background-color: #001e50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+.polo {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 10rem;
+    border: 3px solid #dfe4e8;
+    margin-top: -3em;
+}
+
+.volks {
+    color: #dfe4e8;
+    display: flex;
+    justify-content: center;
+}
+
+.BTL {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BTL a {
+    color: #dfe4e8;
+    padding: 1em;
+    border: 2px solid #dfe4e8;
+    background-color: #001e50;
+    border-radius: 0.5rem;
+    margin-bottom: 9px;
+    text-align: center;
+    text-decoration: dotted;
+    width: 12em;
+}
+
+.carro {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.logo {
+    display: flex;
+    margin-top: 1em;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: calc(66.66vw - 12px) max-content auto;
+    align-items: center;
+    margin-top: 1.5em;
+}
+
+
+.logo:after,
+.logo:before {
+    background: #fff;
+    content: "";
+    height: 2px;
+}
+
+.BTL a:hover {
+    transition: .5s;
+    color: #fff;
+    background-color: #00437a;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.redes a:hover {
+    transition: .5s;
+    color: #001e50;
+    background-color: #00437a;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 400px) {
+    .logo {
+        display: flex;
+        margin-top: 1em;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto max-content auto;
+        align-items: center;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
